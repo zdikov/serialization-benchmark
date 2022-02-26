@@ -1,0 +1,6 @@
+tabulate
+protobuf
+avro
+pyyaml
+msgpack
+protoc-wheel-0

@@ -1,0 +1,51 @@
+{
+    "name": "Message",
+    "type": "record",
+    "namespace": "com.acme.avro",
+    "fields": [
+      {
+        "name": "int_single",
+        "type": "int"
+      },
+      {
+        "name": "float_single",
+        "type": "float"
+      },
+      {
+        "name": "string_single",
+        "type": "string"
+      },
+      {
+        "name": "int_list",
+        "type": {
+          "type": "array",
+          "items": "int"
+        }
+      },
+      {
+        "name": "float_list",
+        "type": {
+          "type": "array",
+          "items": "float"
+        }
+      },
+      {
+        "name": "string_list",
+        "type": {
+          "type": "array",
+          "items": "string"
+        }
+      },
+      {
+        "name": "dict",
+        "type": {
+          "type": "map",
+          "values" : "int"
+        }
+      },
+      {
+        "name": "string_large",
+        "type": "string"
+      }
+    ]
+}

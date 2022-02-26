@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package benchmark;
+
+message Message {
+    int64 int_single = 1;
+    float float_single = 2;
+    string string_single = 3;
+    repeated int32 int_list = 4;
+    repeated float float_list = 5;
+    repeated string string_list = 6;
+    map<string, int32> dict = 7;
+    string string_large = 8;
+}
